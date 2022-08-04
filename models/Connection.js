@@ -10,7 +10,7 @@
         const connection = await mysql.createConnection({
             host: 'localhost',
             user: 'root',
-            database: 'vehicle_platform'
+            database: 'db_vehicle_platform'
         });
 
         global.connection = connection;
